@@ -1,4 +1,4 @@
-# IMDb Score Prediction using Linear Regression
+# IMDb Score Prediction
 
 This project aims to predict IMDb scores for movies available on the Films platform using a linear regression model. By following the instructions below, you can run the code and explore the project.
 
