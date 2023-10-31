@@ -1,51 +1,59 @@
-# imdb_score
-# Films IMDb Score Predictor
+# IMDb Score Prediction using Linear Regression
 
-Predict IMDb scores of movies available on Films based on various features, helping users discover highly rated films that match their preferences.
+This project aims to predict IMDb scores for movies available on the Films platform using a linear regression model. By following the instructions below, you can run the code and explore the project.
 
 ## Table of Contents
 
-- [About]
-- [Project Design]
-- [Data Source]
-- [Data Preprocessing]
-- [Feature Engineering]
-- [Model Selection]
-- [Model Training]
-- [Evaluation]
-- [Dataset Description]
-- [Future Work]
-- [Contact]
+- [Dataset](#dataset)
+- [Dependencies](#dependencies)
+- [Running the Code](#running-the-code)
+- [Project Structure](#project-structure)
+- [License](#license)
 
-# About
+## Dataset
 
-This project aims to develop a machine learning model that predicts IMDb scores of movies available on Films based on features like genre, premiere date, runtime, and language. The model will help users discover highly rated films that match their preferences. The project involves data preprocessing, feature engineering, model selection, training, and evaluation.
+The dataset used for this project is 'NetflixOriginals.csv.' This dataset contains information about Netflix original movies and is provided directly in the project directory.
 
-# Project Design
+### Description
 
-The project follows a structured design process:
+- **File Name**: NetflixOriginals.csv
+- **Description**: This dataset includes details about Netflix original films, such as genre, premiere date, runtime, language, and IMDb scores. It serves as the foundation for our IMDb score prediction project.
 
-# Data Source
+## Dependencies
 
-- Utilize a dataset containing information about movies, including features like genre, premiere date, runtime, language, and IMDb scores.
+Before running the code, you need to have the following dependencies installed:
 
-# Data Preprocessing
+- Python (version 3.6 or higher)
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-Learn
 
-- Clean and preprocess the data, handle missing values, and convert categorical features into numerical representations.
+You can install these dependencies using pip by running:
 
-# Feature Engineering
+```bash
+pip install pandas numpy matplotlib scikit-learn
 
-- Extract relevant features from the available data that could contribute to predicting IMDb scores.
+## Running the Code
 
-# Model Selection
+Follow these steps to run the IMDb score prediction code:
 
-- Choose appropriate regression algorithms (e.g., Linear Regression, Random Forest Regressor) for predicting IMDb scores.
+* Clone or download this GitHub repository to your local machine.
 
-# Model Training
+* Ensure you have the dataset file 'NetflixOriginals.csv' in the project directory.
 
-- Train the selected model using the preprocessed data.
+* Open a terminal or command prompt and navigate to the project directory.
 
-# Evaluation
+* Run the Python script 'imdb_score_prediction.py' using the following command:
+bash
+pip install pandas numpy matplotlib scikit-learn
 
-- Evaluate the model's performance using regression metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared.
+"python imdb_score_prediction.ipynb"
 
+The script will perform data preprocessing, train a linear regression model, and evaluate it. It will display RMSE (Root Mean Square Error) and R-squared (R2) score, as well as a scatter plot showing actual vs. predicted IMDb scores.
+Project Structure
+
+The project directory contains the following files:
+
+imdb_score_prediction.ipynb: The main Python script for IMDb score prediction.
+NetflixOriginals.csv: The dataset file.
