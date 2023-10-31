@@ -31,8 +31,8 @@ Before running the code, you need to have the following dependencies installed:
 
 You can install these dependencies using pip by running:
 
-```bash
-pip install pandas numpy matplotlib scikit-learn
+bash
+pip install pandas numpy matplotlib scikit-learn'
 
 ## Running the Code
 
